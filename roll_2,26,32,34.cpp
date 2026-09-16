@@ -6,9 +6,9 @@
 
 using namespace std;
 
-// ==========================================
+
 // CARD CLASS
-// ==========================================
+
 class Card {
 private:
     string suit;
@@ -28,9 +28,9 @@ public:
     }
 };
 
-// ==========================================
+
 // DECK CLASS
-// ==========================================
+
 class Deck {
 private:
     vector<Card> cards;
@@ -74,9 +74,9 @@ public:
     }
 };
 
-// ==========================================
+
 // PARTICIPANT CLASS (BASE)
-// ==========================================
+
 class Participant {
 protected:
     vector<Card> hand;
@@ -115,9 +115,9 @@ public:
     }
 };
 
-// ==========================================
+
 // PLAYER CLASS (DERIVED)
-// ==========================================
+
 class Player : public Participant {
 private:
     int balance;
